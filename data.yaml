@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['person hold weapon', 'person', 'weapon']
+
+roboflow:
+  workspace: school-fin7c
+  project: person-weapon-datasets
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-fin7c/person-weapon-datasets/dataset/4

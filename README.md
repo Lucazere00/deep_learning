@@ -8,16 +8,23 @@ Tale studio intende fornire una base metodologica per l'integrazione di tecnolog
 
 ## Background e tecniche utilizzate 
 - Tecniche di Deep Learning impiegate: Transformer, CNN(ResNet), Attention Mechanism, Multi-Head Self-Attention, Multi-Head Cross-Attention, Feature Enhancer, Language-guide Query Selection, Cross-modality Decoder, Presence Head, Predicion Heads.
-- Strumenti: PyTorch, Scikit-learn, Pycocotools,Cython scipy
-- Dataset: https://github.com/UCAS-GYX/YouTube-GDD
+- Strumenti: PyTorch, Scikit-learn, Pycocotools,Cython scipy.
+- Dataset: https://github.com/UCAS-GYX/YouTube-GDD.
 
  dataset/
+ 
 ├── annotations/
+
 │   ├── instances_train2017.json
+
 │   ├── instances_val2017.json
+
 │   └── instances_test2017.json
+
 ├── train/      
-├── val/        
+
+├── val/      
+
 └── test/
 
 ## Esperimenti
